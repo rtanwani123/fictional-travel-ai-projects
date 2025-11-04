@@ -1,4 +1,4 @@
-# 🧭 Travel Planner Agentic AI  
+#  Travel Planner Agentic AI  
 ### *by Fictional Travel Co.*
 
 ---
@@ -32,11 +32,11 @@ Demonstrate how a modular, agent-based AI system can help users plan a travel it
 ---
 
 ## **Project Highlights**
-100% **free and secure** — no external paid APIs.  
-Built for **Google Colab compatibility** using `transformers` and `gradio`.  
-**Detailed code comments** to make every step easy to follow.  
-**Interactive Gradio interface** for smooth experimentation.  
-Demonstrates **multi-agent sequencing** in a simplified travel-planning scenario.  
+ 100% **free and secure** — no external paid APIs.  
+ Built for **Google Colab compatibility** using `transformers` and `gradio`.  
+ **Detailed code comments** to make every step easy to follow.  
+ **Interactive Gradio interface** for smooth experimentation.  
+ Demonstrates **multi-agent sequencing** in a simplified travel-planning scenario.  
 
 ---
 
@@ -60,26 +60,18 @@ This project aims to help learners:
 
 ---
 
-## **How It Works**
-1. **User Input:**  
-   The user selects a city (e.g., Paris, Tokyo, Rome) from the dropdown menu.  
+## **How to Run**
+1. Open Google Colab in your browser: [https://colab.research.google.com](https://colab.research.google.com)  
+2. Upload the notebook file `travel_planner_agentic_ai.ipynb` from the folder:
+3. Run each cell sequentially:  
+- **Step 1:** Install required Python libraries.  
+- **Step 2:** Generate input data (destinations, hotels, flights, activities). The notebook will automatically create the necessary files in `fictional_travel_docs`.  
+- **Step 3:** Initialize agents and orchestrator.  
+- **Step 4:** Launch the interactive Gradio interface.  
+4. Interact with the UI:  
+- Select a city from the dropdown.  
+- View Flight, Hotel, and Travel Tips outputs in three separate sections.  
+5. Explore and modify the sample data or prompts to see how the agents respond differently.  
 
-2. **Agent Execution:**  
-   - The **Flight Agent** suggests flight options for that city.  
-   - The **Hotel Agent** lists suitable accommodations.  
-   - The **Travel Tips Agent** provides activity-based suggestions related to the chosen city.  
-
-3. **Orchestration:**  
-   All agents run sequentially under a simple Python controller, simulating how multiple AI agents collaborate in a larger system.  
-
-4. **Output Display:**  
-   Results appear in three cleanly formatted sections — *Flight Options*, *Hotel Options*, and *Travel Tips*.
-
----
-
-## **Educational Value**
-This project shows how **Agentic AI concepts** can be adapted into lightweight, free setups:
-- Multi-agent collaboration without complex infrastructure.
-- Context-sharing and sequencing between agents.
-- Focus on clear learning, transparency, and reproducibility.
-
+> **Note:** The notebook uses the free model `flan-t5-small`, so responses — particularly travel tips — may be simplified. The focus is on understanding agentic workflow and orchestration rather than perfect AI outputs.
+ 
